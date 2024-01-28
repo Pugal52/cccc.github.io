@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.nav-links{
+    display: flex;
+    column-gap: 16px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(0, 0, 0) ;
+}
+
+.nav-links a:hover{
+    text-decoration: underline;
+}
+
+.toggle{
+    display: none;
+}
+
+.sidebar{
+    background-color:  rgb(227, 227, 227) ;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -40%;
+    padding: 20px;
+    color: black;
+    transition: 1.25s;
+   
+}
+
+.blink{
+    margin-bottom: 30px;
+   
+}
+.blink a{
+    color: black;
+    text-decoration: none;
+}
+.blink a:hover{
+    text-decoration: underline;
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+.hb{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.service{
+    padding: 20px;
+}
+
+.scontainer1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.scontainer2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   gap: 12px;
+    margin-top: 16px;
+}
+.scontainer2 div{
+    background-color: rgb(227, 227, 227);
+    border-radius: 8px;
+    padding: 5px;
+
+}
+.new{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.new1{
+    position: relative;
+    flex-basis: 20%;
+    text-align: center;
+}
+.new1 button{
+    padding-left:8%;
+    padding-right:8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 10px;
+    color:black;
+    background-color: aliceblue;
+    position: absolute;
+    bottom:  0%;
+    left: 28%;
+    text-align: center;
+    opacity: 40%;
+    border: none;
+    border-radius: 7%;
+}
+.cartb:hover{
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+   
+}
+.search{
+    padding: 10px;
+    width: 80vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: black;
+    border-style: solid;
+}
+.newsb button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
+.newsb :hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.footer{
+    padding: 30px;
+    margin-top: 20px;
+    column-gap: 5px;
+    margin-bottom: 0%;
+}
+
+.product-section{
+    margin-top: 20px;
+}
+.product-search{
+    width: 80%;
+    border: solid black 2px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.product-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+.product-search input:focus{
+    outline: none;
+}
+.products{
+    padding: 250px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -210px;
+    margin-bottom: -210px;
+}
+.product-box{
+    text-align: center;
+    flex-basis: 35%;
+    margin-top: 15px;
+}
+.product-box img{
+    border-radius: 5px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 120px;
+    border-color: black;
+    border-style: solid;
+}
+.contacts div{
+    background-color: white;
+    border: 95px;
+    border-color: black;
+}
+.title,.mail,.send{
+ padding: 15px;
+}
+.mail input{
+    border-radius: 5px;
+   border-style: solid 55px;
+    padding: 5px;
+    width: 20vw;
+}
+.help input{
+    border-radius: 5px;
+    border-style: solid 55px;
+    padding: 5px;
+    width: 20vw;
+    height: 10vh;
+
+}
+.help :placeholder{
+ top: 10px;
+}
+.send button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.send :hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width:650px) {
+
+    .toggle{
+        display: block;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .himg{
+        display: none;
+    }
+    .scontainer1{
+        display: none;
+    }
+    .scontainer2{
+
+        flex-direction: column;
+    }
+}
