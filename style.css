@@ -75,13 +75,7 @@ body{
     color: white;
     cursor: pointer;
 }
-.hb :hover{
-    cursor: pointer;
-    background-color: white;
-    color: black;
-.service{
-    padding: 20px;
-}
+
 
 .scontainer1{
     display: flex;
