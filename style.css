@@ -73,9 +73,12 @@ body{
     margin-top: 10px;
     background-color: black;
     color: white;
-    cursor: pointer;
 }
 
+
+.service{
+    padding: 20px;
+}
 
 .scontainer1{
     display: flex;
