@@ -109,6 +109,8 @@ body{
     position: relative;
     flex-basis: 20%;
     text-align: center;
+     justify-content: space-around;
+    
 }
 .new1 button{
     padding-left:8%;
