@@ -271,7 +271,7 @@ body{
         flex-direction: column;
     }
 
-    .new1{
+    .new1 img{
         justify-content: center;
     }
 }
